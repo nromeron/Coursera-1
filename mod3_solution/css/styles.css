@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar-brand  { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar{
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: black;
+    color: #61122F;
+
+}
+
+
+body{
+    background-color: #61122F;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.conteiner-fluid{
+    padding-top: 10px;
+    height: 80px;
+}
+
+.center{
+    width: 90%;
+    background-color: grey;
+
+}
+.container
+{
+    background-color: grey;
+    width: 95%;
+
+}
+.text-center{
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    margin-bottom: 50px;
+    margin-top: -25px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+#myNavbar ul li p {
+    background-color: #AAA5A5;
+    border-radius: 0;
+    border: 0;    
+    margin-bottom: 0;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+}
+.navbar-brand{
+    font-size: 30px;    
+}
+
+@media (max-width: 767px) {
+    .container{
+        width: 80%;
+    }
+
+    h1{
+    font-family: 'Lora', serif;
+    margin-bottom: 25px;
+    margin-top: -15px;
+    }
+}
